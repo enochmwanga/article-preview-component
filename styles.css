@@ -7,6 +7,11 @@
   --padding: 1.8em;
   --line-height: 1.6em;
 }
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
 body {
   display: grid;
   place-items: center;
